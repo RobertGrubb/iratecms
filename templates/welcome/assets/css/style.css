@@ -1,0 +1,703 @@
+/**
+ * ==============================
+ * Irate CMS Welcome Theme
+ * Created by Irate Designs
+ * Developer: Huston Johnson
+ * Developer: Matt Grubb
+ * Support: www.iratedesigns.com
+ * ==============================
+ **/
+
+
+/** Body Style **/
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    color: #383838;
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 #eee;
+}
+
+/** Global Selector Overwrites **/
+
+textarea {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: #E74C3C;
+    font-weight: bold;
+}
+
+.errors p {
+    text-indent: 5px;
+    color: #FFF;
+    width: 100%;
+    background: #FF0000;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.msg p {
+    text-indent: 5px;
+    color: #FFF;
+    width: 100%;
+    background: #07920a;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.errors,.msg {
+    color: #FFF;
+}
+
+.center {
+    text-align: center;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+fieldset legend {
+    color: #FFF;
+}
+
+.left_label {
+    width: 120px;
+}
+
+/** Header **/
+
+.head {
+    border-bottom: 3px solid #E64B3C;
+    border-top: 3px solid #E64B3C;
+    background-color: #1E1E1E;
+    padding: 20px 0;
+}
+
+/** Links **/
+
+a:hover {
+    color: #C0392B;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #E74C3C;
+    outline-color: #E74C3C;
+}
+
+/** Head Margin (For Navigation Balance) **/
+
+.head-space {
+    margin-top: 71px;
+}
+
+/** Navigation Bar **/
+
+.navbar {
+    padding: 10px 0px;
+}
+
+.navbar-inverse {
+    border-bottom: 3px solid #E64B3C;
+    border-top: 3px solid #E64B3C;
+    background-color: #1E1E1E;
+    padding: 20px 0;
+}
+
+/** Slider **/
+
+.slider-container {
+    width: 100%;
+}
+
+.slider-container .container {
+    width: 100%;
+}
+
+.slider-container .well {
+    background: #222;
+    border: 1px solid #111;
+    margin-bottom: 0px !important;
+}
+
+/** Content Area **/
+
+.content-inner {
+    padding: 35px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 1px #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/** Post Box (Background Color) **/
+
+.post-box {
+    background-color: #FFF;
+}
+
+/** Facebook Comments (Make Responsive) **/
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
+/** Half Panel (For Main Content Area Use) **/
+
+.half-panel {
+    width: 50%;
+    float: left;
+}
+
+
+/** Flex Video - Make Video Containers Responsive **/
+.flex-video {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.flex-video.widescreen {
+    padding-bottom: 57.25%;
+}
+
+.flex-video.vimeo {
+    padding-top: 0;
+}
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/** Profile activity item **/
+
+.profile-activity .item {
+    border-bottom: 1px solid #CCC;
+    padding: 5px 0px;
+}
+
+/** Tab Styling **/
+
+.tab-content {
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.tab-pane {
+    padding: 10px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/** Post style (Forums) **/
+
+.post {
+    border: 1px solid #DDD;
+    padding: 10px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+    background: #FFF;
+}
+
+.post-info {
+    border-right: 1px solid #DDD;
+    padding-right: 10px;
+}
+
+.post-body {
+    padding: 10px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/** Thread styling **/
+
+.thread-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.thread-hr {
+    border-color: #CCC;
+}
+
+/** Pagination Container **/
+
+.pagination {
+    margin: 5px 0px;
+}
+
+/** PM Styling **/
+
+.mail-box {
+    padding: 5px;
+}
+
+.newmail {
+    width: 16px;
+    height: 16px;
+    background: url('../images/icons/newmail.png') no-repeat;
+}
+
+.oldmail {
+    width: 16px;
+    height: 16px;
+    background: url('../images/icons/oldmail.png') no-repeat;
+}
+
+/** Video Styling **/
+
+.video-item {
+    margin-bottom: 0px !important;
+}
+
+.video-inner {
+    position: relative;
+}
+
+.video-image {
+    max-width: 100%;
+}
+
+.video-image:hover {
+    opacity: 0.8;
+}
+
+.video-title {
+    width: 100%;
+    height: 30px;
+    background: #000;
+    color: #FFF;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    line-height: 30px;
+    text-indent: 8px;
+}
+
+/** Profile HR **/
+
+.profile-hr {
+    padding: 0px !important;
+    margin: 8px 0px !important;
+}
+
+/** ShareThis Container **/
+
+#sharethis span {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/** Media query for Flex Video - Making Videos Responsive **/
+
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+    .flex-video {
+        padding-top: 0;
+    };
+}
+
+/** LATEST THREADS WIDGET CSS **/
+
+#lt .item {
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #EEE;
+    margin-bottom: 5px;
+}
+
+#lt .item:last-child {
+    margin-bottom: 0px;
+}
+
+#lt .item>.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#lt .item>.desc {
+    font-size: 10px;
+}
+
+/** Gallery Styles **/
+
+.gallery-button {
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #DDD;
+}
+
+.gallery-carousel-img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+/** Forum styles **/
+
+.forum_img {
+    width: 48px;
+    height: 48px;
+    background: url('../images/icons/forums/general.png') center center no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+}
+
+.forum_name {
+    width: 50%;
+}
+
+.forum_topics {
+    width: 10%;
+    text-align: center;
+}
+
+.forum_posts {
+    width: 10%;
+    text-align: center;
+}
+
+.forum_posted_by {
+    width: 30%;
+}
+
+.well-half {
+    width: 50%;
+}
+
+.slideshow {
+    background: #FFF;
+    padding: 5px 0px;
+}
+
+/** Pre Footer **/
+
+.pre-foot {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: none repeat scroll 0 0 #1F1F1F;
+    border-top: 6px solid #E74C3C;
+    color: #B0A8AA;
+    font-size: 13px;
+}
+
+.pre-foot .well {
+    background: #222;
+    border: 1px solid #111;
+}
+
+.pre-foot .small_logo_container {
+    text-align: center;
+}
+
+.pre-foot .panel {
+    background: #222;
+    color: #FFF;
+}
+
+.pre-foot .panel>.panel-default {
+    background: #111;
+}
+
+.pre-foot .panel>.panel-heading {
+    background: #111;
+    color: #FFF;
+    border: none !important;
+}
+
+.pre-foot .panel {
+    border: 1px solid #000;
+}
+
+.pre-footer-nav {
+    padding: 5px 15px 5px 15px;
+    width: 33%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pre-footer-nav li {
+    margin-bottom: 9px;
+}
+
+.pre-footer-nav li:last-child {
+    margin-bottom: 0px;
+}
+
+.pre-footer-nav li a {
+    color: #FFF;
+    font-weight: bold;
+}
+
+/** Social Buttons **/
+
+.iconRounded {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    line-height: 30px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.padded {
+    padding: 10px;
+}
+
+#facebook .iconRounded:hover {
+    color: #0030ff !important;
+}
+
+#twitter .iconRounded:hover {
+    color: #61cbe8 !important;
+}
+
+#youtube .iconRounded:hover {
+    color: #e30c0c !important;
+}
+
+/** Footer Styles **/
+
+#footer-area {
+    width: 100%;
+    height: 50px;
+    background: none repeat scroll 0 0 #121212;
+    border-top: thin solid #080808;
+    color: #FFF;
+}
+
+#footer-area a {
+    color: #00a8f7;
+    font-weight: bold;
+}
+
+#footer-area .pull-left {
+    line-height: 50px;
+}
+
+#footer-area .pull-right {
+    line-height: 50px;
+}
+
+#footer-area .pull-right a {
+    color: #E74C3C;
+}
+
+/** Media Queries **/
+
+@media (max-width: 992px) {
+
+    .half-panel {
+        width: 100%;
+    }
+
+    .pre-footer-nav {
+        width: 100%;
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    .pre-footer-nav li {
+        padding: 5px;
+        background: #333;
+        border-radius: 5px;
+    };
+}
+
+/** Carousel with Timer **/
+
+.transition-timer-carousel .carousel-caption {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 4%, rgba(0,0,0,0.5) 32%, rgba(0,0,0,1) 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(4%,rgba(0,0,0,0.1)), color-stop(32%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,1)));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+ /* IE6-9 */
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.transition-timer-carousel .carousel-caption .carousel-caption-header {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+@media (min-width: 970px) {
+    /* Lower the font size of the carousel caption header so that our caption
+    doesn't take up the full image/slide on smaller screens */
+	.transition-timer-carousel .carousel-caption .carousel-caption-header {
+		font-size: 36px;
+	}
+}
+.transition-timer-carousel .carousel-indicators {
+	bottom: 0px;
+	margin-bottom: 5px;
+}
+.transition-timer-carousel .carousel-control {
+	z-index: 11;
+}
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+    height: 5px;
+    background-color: #E64B3C;
+    width: 0%;
+    margin: -5px 0px 0px 0px;
+    border: none;
+    z-index: 11;
+    position: relative;
+}
+.transition-timer-carousel .transition-timer-carousel-progress-bar.animate{
+    /* We make the transition time shorter to avoid the slide transitioning
+    before the timer bar is "full" - change the 4.25s here to fit your
+    carousel's transition time */
+    -webkit-transition: width 4.25s linear;
+	-moz-transition: width 4.25s linear;
+	-o-transition: width 4.25s linear;
+	transition: width 4.25s linear;
+}
+
+/** Button Overwrites **/
+
+.btn-primary {
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    color: #FFF;
+    font-size: 11px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+.btn-primary:hover {
+    background-color: #C0392B;
+    border-color: #E64B3C;
+    color: #FFF;
+    font-size: 11px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+/** Breadcrumb Overwrites **/
+
+.breadcrumb {
+    background-color: #F5F5F5;
+    border-radius: 0px;
+    list-style: none outside none;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+}
+
+/** Panel Overwrites **/
+
+.panel {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px solid #E64B3C;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.panel-primary {
+    border-color: #E64B3C;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    color: #FFF;
+}
+
+.panel-primary > .panel-heading > .panel-title {
+    font-size: 11px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+    border-top-color: #E64B3C;
+}
+
+.panel-primary > .panel-heading > .dropdown .caret {
+    border-color: #383838 rgba(0, 0, 0, 0);
+}
+
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: #E64B3C;
+}
+
+.panel-default > .panel-heading {
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    color: #FFF;
+}
+
+.panel-default > .panel-heading > .panel-title {
+    font-size: 11px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
